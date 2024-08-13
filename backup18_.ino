@@ -230,7 +230,7 @@ void display(String text) {
 }
 
 //sealing function
-void sealer() {
+/*void sealer() {
   actionPerformed = false;
   myStepper.step(stepsPerRevolution);  // Perform the action (rotate the stepper motor one full revolution clockwise)
   delay(1000);                         // Add a delay here if needed to control the timing between steps
@@ -242,7 +242,7 @@ void sealer() {
   delay(2000);
   //stepsPerRevolution = -stepsPerRevolution ;
   myStepper.step(-stepsPerRevolution);
-}
+}*/
 
 //get the load cell reading function
 float reading() {
